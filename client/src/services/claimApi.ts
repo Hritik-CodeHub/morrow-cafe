@@ -25,6 +25,6 @@ export async function claimOffer(
   return {
     success: true,
     claimCode,
-    message: "Your offer has been claimed.",
+    message: `${data.name}, Your offer has been claimed.`,
   };
 }
