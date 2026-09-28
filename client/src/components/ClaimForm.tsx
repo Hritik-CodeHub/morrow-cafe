@@ -276,11 +276,14 @@ function ClaimForm() {
                 )}
               </span>
             </button>
-
-            <p className=" mt-4 text-xs text-black/45 "
-            >
-              Sector 104 · Noida
-            </p>
+           
+            <div className="flex items-center gap-1 mt-4  text-black/45 ">
+              <MapPin className="h-4 w-4" />
+              <span className=" text-xs" >
+                Sector 104, Noida
+              </span>
+            </div>
+          
           </section>
         )}
       </div>

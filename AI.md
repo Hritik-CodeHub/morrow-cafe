@@ -12,9 +12,7 @@ and edge cases.
 
 ## One Useful Thing AI Helped With
 
-AI helped identify accessibility details such as
-aria-live status messaging, aria-invalid form states,
-keyboard navigation and reduced-motion support.
+AI helped me refine the form structure and user experience by suggesting clearer validation states, responsive layout improvements, accessible error messaging, and small UI details that make the form easier to use across screen sizes. It also helped optimize the landing page image strategy by recommending a fast production-ready setup with responsive WebP image sources and `fetchPriority="high"` for the hero image.
 
 ## One Thing AI Got Wrong Or That I Changed
 

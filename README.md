@@ -5,7 +5,7 @@ Sector 104, Noida.
 
 ## Live Demo
 
-YOUR_DEPLOYED_URL
+[DEPLOYED_URL](https://morrow-cafe-zeta.vercel.app/)
 
 ## Tech Stack
 
@@ -88,6 +88,4 @@ JavaScript.
 
 ## Accessibility
 
-The form uses semantic labels, visible focus states,
-ARIA error associations, live status messaging and
-reduced-motion support.
+The form follows accessibility best practices with semantic labels, clear focus states, and reduced-motion support. Form validation is managed with React Hook Form's `useForm` hook, keeping the implementation clean, structured, and maintainable.

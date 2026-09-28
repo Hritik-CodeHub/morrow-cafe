@@ -36,11 +36,21 @@ function App() {
       <section className="relative  max-w-full   ">
         <div className="block lg:flex">
           <div className="relative w-full overflow-hidden lg:rounded-r-[28px] lg:min-h-190 lg:w-6xl">
-            <img
-              src="/cafe.png"
-              alt="Warm interior of Morrow Café"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
+            <picture>
+              <source
+                type="image/webp"
+                srcSet="/cafe-1920.webp 1920w, /cafe-1600.webp 1600w, /cafe-1200.webp 1200w"
+                sizes="(max-width: 767px) 100vw, 60vw"
+              />
+              <img
+                src="/cafe.png"
+                srcSet="/cafe-1920.webp 1920w, /cafe-1600.webp 1600w, /cafe-1200.webp 1200w"
+                sizes="(max-width: 767px) 100vw, 60vw"
+                alt="Warm interior of Morrow Café"
+                fetchPriority="high"
+                className="absolute inset-0 h-full w-full object-cover"
+              />
+            </picture>
 
             {/* Dark gradient for text readability */}
             <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/45 to-transparent" />
@@ -53,7 +63,7 @@ function App() {
 
                 <div className="mb-4 flex items-center gap-5 sm:mb-7">
                   <span className="text-[10px] font-bold tracking-[0.18em] sm:text-xs lg:text-sm">
-                    YOUR NEXT COFFEE
+                    YOUR NEXT VISIT
                   </span>
 
                   <span className="h-px w-12 bg-white/70 sm:w-16" />
